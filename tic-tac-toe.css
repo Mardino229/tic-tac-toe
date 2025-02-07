@@ -35,7 +35,6 @@ body{
             font-size: 40px;
             font-weight: 900;
             color: #4b7bec;
-            cursor: pointer;
             width: 39px;
             height: 39px;
             
@@ -97,8 +96,8 @@ button {
     cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
    td{
-    cursor: auto;
+    cursor: pointer;
    }
 }
