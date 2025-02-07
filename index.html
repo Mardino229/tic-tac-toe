@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tic-tac-toe.css">
+    <title>tic-tac-toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <table>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="victoryScreen" class="hidden">
+        <video id="victoryVideo" autoplay loop muted>
+            <source src="victory.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+        <div class="message-container">
+            <h2 id="winnerMessage"></h2>
+            <button onclick="hideVictoryScreen()">Rejouer</button>
+        </div>
+    </div>
+    <script src="tic-tac-toe.js"></script>
+</body>
+</html>
