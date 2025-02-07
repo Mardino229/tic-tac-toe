@@ -96,3 +96,9 @@ button {
     border: none;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+   td{
+    cursor: auto;
+   }
+}
